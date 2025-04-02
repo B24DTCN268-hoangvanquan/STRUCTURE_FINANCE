@@ -1,0 +1,48 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+.container {
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: rgb(243, 249, 249);
+    border-radius: 10px;
+
+}
+h1{
+    font-size:medium;
+}
+.container .item1{
+    background-color: rgb(6, 175, 20);
+    color: white;
+    border: 0px solid rgb(6, 175, 20);
+    border-radius: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.container .item2 {
+    background-color: rgb(243, 249, 249);
+    border: 0px solid rgb(243, 249, 249);
+    color: blue;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(212, 208, 208);
+}
+
+.contai{
+    display: flex;
+    padding-left: 30px;
+    
+}
